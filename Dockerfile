@@ -2,7 +2,7 @@ FROM openjdk:8-jre
 MAINTAINER Animesh Kumar Singh
 
 # Version
-ENV HADOOP_VERSION=3.2.1
+ENV HADOOP_VERSION=2.8.3
 
 # Set home
 ENV HADOOP_HOME=/usr/local/hadoop-$HADOOP_VERSION
